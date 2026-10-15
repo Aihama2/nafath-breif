@@ -29,8 +29,11 @@ Resource: <OWASP Top 10 for LLM Applications Standard> - LLM01 Prompt Injection 
 Pseudonymization replaces personal identifiers with artificial keys (pseudonyms), allowing data re-identification if the separate key is accessed. Anonymization permanently strips all identifying elements so the data subject can never be re-identified by any mechanism. Because anonymization is completely irreversible, it removes the resulting data files entirely from the regulatory scope of global data protection laws like the GDPR.
 Resource: <European Parliament and Council Regulation (EU) 2016/679 (GDPR)> - <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 
-# Misconception in My Track
+## Misconception in My Track
 A common software track misconception is that minor API patches do not require a version upgrade if the endpoints are not removed, or that bumping MAJOR codes is optional if the previous methods are kept functional. According to the SemVer standard, any change that breaks backward compatibility explicitly demands a MAJOR version increase, as documented directly under the main specification rules on the page.
 
-# Open Question
+## Open Question
 I would next verify how to implement automated continuous delivery tools that perform strict static schema checks on the public API blueprint to automatically reject any deployment that breaks backward compatibility without incrementing the MAJOR version code.
+
+## Overview
+The need arises for an AI chatbot to be embedded in the mobile application in order to provide information about the services to the citizens. Software versioning could prove useful for the protection of the current systems from any problems arising out of the upgrade. With respect to RAG, the AI system would be able to derive useful information from the records of the government. The networking provides the exchange of information between the devices while IPv6 makes sure that a large number of devices are interconnected. Moreover, there is a cybersecurity system for the protection of the chatbot from any attacks. Finally, anonymization and pseudonymization would also help in protecting the privacy of the personal data of the citizens in case of storage of logs, which directly relies on establishing a proper software versioning strategy.
